@@ -32,12 +32,12 @@ function randomPopUp() {
   // Ajouter un son zinzin à chaque clic sur le bouton
   const button = document.getElementById('crazy-button');
   button.addEventListener('click', () => {
-    alert("Pourquoi tu as cliqué ?!");
+    alert("Pourquoi tu as clique ?!");
     for (let i = 0; i < 5; i++) {
       createCrazyBox();
     }
     // Jouer un son
-    const audio = new Audio('https://www.soundjay.com/button/beep-09.wav');
+    const audio = new Audio('https://youtu.be/PBz5ShLwVY0');
     audio.play();
   });
   
