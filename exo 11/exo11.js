@@ -24,7 +24,3 @@ setTimeout(() => {
 
 
 }, "2500");
-
-addEventListener("caca", (event) => { });
-
-onmessage = (event) => { };
