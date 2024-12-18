@@ -1,6 +1,7 @@
-const jsonUrl = 'http://192.168.65.113/data.json';
+const jsonUrl = 'exo11.json';
 
-fetch(jsonUrl)
+function getData(){
+    fetch(jsonUrl)
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -8,9 +9,18 @@ fetch(jsonUrl)
         return response.json();
     })
     .then(data => {
-        document.getElementById('json-content').innerText = JSON.stringify(data, null, 2);
+        document.getElementById('json-content').innerText = data.menu;
     })
     .catch(error => {
         console.error('Erreur de récupération du JSON :', error);
-        document.getElementById('json-content').innerText = "Erreur de chargement.";
+        document.getElementById('json-content').innerText = "Looseur";
     });
+}
+
+    setTimeout(() => {
+        
+
+        getData();
+
+
+      }, "2500");
