@@ -36,13 +36,13 @@ h1 {
     border: 1px solid #2c0202;
     border-radius: 5px;
     padding: 15px;
-    white-space: pre-wrap; 
+    white-space: pre-wrap;
     font-family: "Courier New", Courier, monospace;
     color: #131010;
     overflow-x: auto;
-    
+
 }
-    
+
 
 
 .footer {
@@ -51,7 +51,3 @@ h1 {
     font-size: 0.9em;
     color: #777;
 }
-
-
-
-
