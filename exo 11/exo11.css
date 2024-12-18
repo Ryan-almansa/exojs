@@ -1,7 +1,50 @@
-*body {
-    background-color: blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-*p{
-    color: tomato;
+body {
+    background-color: #b0b0dab7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #9e9696a1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+#json-content {
+    background: #4d0d0d73;
+    border: 1px solid #2c0202;
+    border-radius: 5px;
+    padding: 15px;
+    white-space: pre-wrap; 
+    font-family: "Courier New", Courier, monospace;
+    color: #131010;
+    overflow-x: auto;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
 }
