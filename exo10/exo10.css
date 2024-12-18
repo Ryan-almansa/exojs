@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+.hover-box, .click-box, .key-box {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    border: 2px solid #000;
+    cursor: pointer;
+  }
+  
+.hover-box:hover {
+    background-color: lightblue;
+  }
+
+.click-box {
+    background-color: lightgreen;
+  }
+  
+.click-box:active {
+    background-color: darkgreen;
+    color: white;
+  }
+
+    
